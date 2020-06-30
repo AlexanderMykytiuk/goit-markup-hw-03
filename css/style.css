@@ -167,6 +167,9 @@ a {
 
 /* Section #4 */
 .team-items .position {
+  margin-top: 0;
+  margin-bottom: 16px;
+
   color: var(--text-color);
 
   font-size: 16px;
@@ -175,6 +178,9 @@ a {
 }
 
 .team-member {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;

@@ -1,0 +1,249 @@
+/* CSS перемены */
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --blake-color: #000000;
+  --border-lab-color: #afb1b8;
+  --icon-and-section-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --shadow-bg-color: rgba(47, 48, 58, 0.8);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --property-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Общие настройки */
+.page {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Утелиты */
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Хедер */
+.logo {
+  color: var(--blake-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.sait-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.sait-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav {
+  color: var(--text-color);
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav .email:hover,
+.auth-nav .email:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .phone:hover,
+.auth-nav .phone:focus {
+  color: var(--accent-color);
+}
+
+/* Уникальний контент index.html */
+
+/* Hero */
+.hero-title {
+  color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  color: var(--white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section #2 */
+.paragraph-title {
+  text-transform: uppercase;
+}
+
+.benefits-item .text {
+  color: var(--text-color);
+
+  line-height: 1.71;
+}
+
+/* Section #3 */
+.section-title {
+  color: var(--primary-text-color);
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.examples-item .title {
+  color: var(--white-color);
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Section #4 */
+.team-items .position {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*  Section #4 Team BG color */
+.team {
+  background-color: var(--icon-and-section-bg-color);
+}
+
+/* Section #5 */
+
+/* Footer */
+.directions {
+  color: var(--footer-contacts-color);
+
+  line-height: 1.71;
+}
+
+.directions .item {
+  color: var(--white-color);
+
+  font-style: normal;
+}
+
+.socials .title,
+.active .title {
+  color: var(--white-color);
+
+  text-transform: uppercase;
+}
+
+.sent-title {
+  color: var(--white-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.sent {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.property {
+  color: var(--property-color);
+
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* Footer BG color*/
+.footer-bg {
+  background-color: var(--footer-bg-color);
+}
+
+/* Уникальний контент portfolio.html */
+.examples .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples .outline {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.94;
+}
+
+.examples .popup {
+  color: var(--white-color);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}

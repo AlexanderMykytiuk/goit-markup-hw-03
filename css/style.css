@@ -48,6 +48,10 @@ a {
   padding: 94px 0;
 }
 
+.no-padding {
+  padding-bottom: 0;
+}
+
 /* Хедер */
 .logo {
   color: var(--blake-color);

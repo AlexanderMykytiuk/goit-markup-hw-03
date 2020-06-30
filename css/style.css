@@ -44,6 +44,10 @@ a {
   outline: 3px solid tomato;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 /* Хедер */
 .logo {
   color: var(--blake-color);

@@ -136,7 +136,7 @@ a {
 
 .benefits-item .text {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   color: var(--text-color);
 
@@ -156,6 +156,9 @@ a {
 }
 
 .examples-item .title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--white-color);
 
   text-align: center;

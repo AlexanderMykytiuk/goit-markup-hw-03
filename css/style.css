@@ -128,10 +128,16 @@ a {
 
 /* Section #2 */
 .paragraph-title {
+  margin-top: 30;
+  margin-bottom: 10px;
+
   text-transform: uppercase;
 }
 
 .benefits-item .text {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   color: var(--text-color);
 
   line-height: 1.71;

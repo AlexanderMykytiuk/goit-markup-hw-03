@@ -54,6 +54,8 @@ a {
 
 /* Хедер */
 .logo {
+  margin-right: 85px;
+
   color: var(--blake-color);
 
   font-family: Raleway, sans-serif;
@@ -66,7 +68,29 @@ a {
   color: var(--accent-color);
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.flex-nav {
+  display: flex;
+  align-items: center;
+}
+
+.sait-nav {
+  display: flex;
+}
+
+.sait-nav .items:not(:last-child) {
+  margin-right: 50px;
+}
+
 .sait-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -83,10 +107,17 @@ a {
 }
 
 .auth-nav {
+  display: flex;
+  margin-left: auto;
+
   color: var(--text-color);
 
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.auth-nav .items:not(:last-child) {
+  margin-right: 30px;
 }
 
 .auth-nav .email:hover,
@@ -142,7 +173,15 @@ a {
   text-transform: uppercase;
 }
 
-.benefits-item .text {
+.benefits {
+  display: flex;
+}
+
+.benefits .items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefits .text {
   margin-top: 0;
   margin-bottom: 0;
 
@@ -163,7 +202,15 @@ a {
   text-align: center;
 }
 
-.examples-item .title {
+.examples {
+  display: flex;
+}
+
+.examples .items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.examples .title {
   margin-top: 0;
   margin-bottom: 0;
 
@@ -174,7 +221,15 @@ a {
 }
 
 /* Section #4 */
-.team-items .position {
+.team {
+  display: flex;
+}
+
+.team .items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team .position {
   margin-top: 0;
   margin-bottom: 16px;
 
@@ -201,6 +256,18 @@ a {
 }
 
 /* Section #5 */
+.lab {
+  display: flex;
+}
+
+.lab .items {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lab .items:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* Footer */
 .directions {

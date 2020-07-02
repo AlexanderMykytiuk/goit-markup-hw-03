@@ -248,6 +248,14 @@ a {
   text-align: center;
 }
 
+.team-flex {
+  display: flex;
+}
+
+.team-flex-items {
+  padding-bottom: 24px;
+  margin-right: 10px;
+}
 /*  Section #4 Team BG color */
 .team {
   background-color: var(--icon-and-section-bg-color);

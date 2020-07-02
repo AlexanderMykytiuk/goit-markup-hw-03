@@ -11,6 +11,7 @@
   --shadow-bg-color: rgba(47, 48, 58, 0.8);
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --property-color: rgba(255, 255, 255, 0.4);
+  --border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Общие настройки */
@@ -276,6 +277,13 @@ a {
 }
 
 /* Footer */
+
+.address-footer {
+  margin-right: 69px;
+  padding-top: 45px;
+  padding-bottom: 28px;
+}
+
 .directions {
   color: var(--footer-contacts-color);
 
@@ -288,11 +296,24 @@ a {
   font-style: normal;
 }
 
-.socials .title,
+.soc-icon .title,
 .active .title {
   color: var(--white-color);
 
   text-transform: uppercase;
+}
+
+.soc-icon {
+  padding-top: 57px;
+  padding-bottom: 56px;
+}
+
+.soc-icon-list {
+  display: flex;
+}
+
+.soc-icon-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .sent-title {
@@ -314,15 +335,35 @@ a {
 }
 
 .property {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid var(--border-color);
+
   color: var(--property-color);
 
   font-size: 12px;
   line-height: 2;
+  text-align: center;
 }
 
 /* Footer BG color*/
 .footer-bg {
   background-color: var(--footer-bg-color);
+}
+
+/* Флекс футера */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  display: flex;
+  margin-left: auto;
+  padding-top: 57px;
+  padding-bottom: 50px;
 }
 
 /* Уникальний контент portfolio.html */
@@ -410,14 +451,4 @@ a {
 .button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-/* Флекс футера */
-.flax {
-  display: flex;
-  align-items: center;
-}
-
-.active {
-  margin-left: auto;
 }

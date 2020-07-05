@@ -185,11 +185,10 @@ img {
   display: flex;
 }
 
-/* .benefit-img {
-  display: flex;
-  display: inline-block;
-  justify-content: center;
-} */
+.benefit-img {
+  background-color: var(--icon-and-section-bg-color);
+  padding: 25px 100px;
+}
 
 .benefits .items:not(:last-child) {
   margin-right: 30px;

@@ -59,6 +59,17 @@ img {
   height: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Хедер */
 .logo {
   margin-right: 85px;
@@ -146,8 +157,12 @@ img {
 }
 
 .hero-title {
+  width: 770px;
+
   margin-top: 0;
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 
   color: var(--white-color);
 
@@ -310,14 +325,11 @@ img {
 
 .lab-img {
   display: flex;
-  box-sizing: border-box;
   border: 1px solid var(--border-lab-color);
   border-radius: 4px;
 
   justify-content: center;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
 
   width: 170px;
   height: 90px;
@@ -422,10 +434,6 @@ img {
 }
 
 /* Уникальний контент portfolio.html */
-.gallery {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 .card-content {
   width: 370px;
@@ -456,7 +464,7 @@ img {
 }
 
 .examples .card {
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
